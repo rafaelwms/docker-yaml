@@ -13,3 +13,7 @@ Este repositório contém arquivos YML do Docker Compose para configurar vários
    ```sh
    git clone https://github.com/rafaelwms/docker-yaml.git
    cd docker-yaml
+
+2. Setup a Container, i.e. (rabbitmq service):
+   ```sh
+   docker compose -f rabbitmq.yml up -d
